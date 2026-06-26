@@ -4,5 +4,5 @@ import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "/souphakone_keopheth_website_portforio/",
+  base: "/souphakone_keopheth_website_portfolio/",
 });
