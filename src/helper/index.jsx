@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import { Paths } from "../routes/app";
 
@@ -200,5 +199,54 @@ export const skills = [
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
     descKey: "figma",
     cats: ["Design"],
+  },
+
+  // ===== AI =====
+
+  {
+    name: "Cursor",
+    logo: "https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/cursor.png",
+    descKey: "cursor",
+    cats: ["AI"],
+  },
+
+  {
+    name: "ChatGPT",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg",
+    descKey: "chatgpt",
+    cats: ["AI"],
+  },
+
+  {
+    name: "Claude AI",
+    logo: "https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/claude-color.png",
+    descKey: "claude",
+    cats: ["AI"],
+  },
+
+  {
+    name: "Gemini",
+    logo: "https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/gemini-color.png",
+    descKey: "gemini",
+    cats: ["AI"],
+  },
+
+  {
+    name: "Antigravity",
+    logo: "https://antigravity.google/assets/image/brand/antigravity-icon__white.png", //
+    descKey: "antigravity",
+    cats: ["AI"],
+  },
+  {
+    name: "GitHub Copilot",
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+    descKey: "copilot",
+    cats: ["AI"],
+  },
+  {
+    name: "Vue.js",
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg",
+    descKey: "vuejs",
+    cats: ["Frontend", "Framework"],
   },
 ];

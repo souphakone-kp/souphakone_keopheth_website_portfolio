@@ -1,4 +1,3 @@
-import React from "react";
 import {
   createHashRouter,
   RouterProvider,
@@ -27,7 +26,7 @@ const router = createHashRouter([
 
   { path: Paths.HOME, element: <HomePage /> },
   { path: Paths.EDUCATION, element: <Education /> },
-  { path: Paths.WISESIGHT, element: <WiseSight /> },
+{ path: Paths.WISESIGHT, element: <WiseSight /> },
   { path: Paths.ANOUSITH, element: <Anousith /> },
 
   { path: Paths.OBSH, element: <OBSHPage /> },
