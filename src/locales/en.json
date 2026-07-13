@@ -62,27 +62,38 @@
     }
   },
 
-  "skills": {
+"skills": {
     "python": "Python is widely used for backend development, automation, data analysis, and machine learning.",
     "java": "Java is an object-oriented programming language commonly used for enterprise and Android applications.",
     "dart": "Dart is optimized for building fast applications across mobile, web, and desktop using Flutter.",
     "typescript": "TypeScript extends JavaScript with static typing and improved developer tooling.",
+    "golang": "Go (Golang) is an open-source language developed by Google, designed for building scalable and high-performance backend systems.",
     "html": "HTML provides the structure and content foundation for websites.",
     "css": "CSS is used to style and design responsive modern web interfaces.",
     "javascript": "JavaScript enables interactive and dynamic behavior in websites and applications.",
     "react": "React is a JavaScript library for building fast and reusable user interfaces.",
+    "nextjs": "Next.js is a React framework that enables server-side rendering, static site generation, and optimized performance for web applications.",
     "node": "Node.js allows JavaScript to run on the server side for scalable backend systems.",
     "express": "Express.js is a lightweight framework for building APIs and backend applications.",
-    "apollo": "Apollo GraphQL simplifies API management and frontend-backend data communication.",
+    "apollo": "Apollo GraphQL simplifies API management, caching, and frontend-backend data communication.",
     "sql": "SQL is used to manage, query, and manipulate relational databases.",
     "mongodb": "MongoDB is a NoSQL database designed for flexible and scalable applications.",
     "dbeaver": "DBeaver is a database management tool supporting multiple database systems.",
+    "firebase": "Firebase is a Backend-as-a-Service (BaaS) platform by Google that offers real-time databases, authentication, and hosting.",
+    "supabase": "Supabase is an open-source Firebase alternative providing a hosted PostgreSQL database, authentication, and real-time APIs.",
     "superset": "Apache Superset is a modern platform for data visualization and dashboard analytics.",
     "dremio": "Dremio enables fast data lake analytics and query acceleration.",
     "jupyter": "Jupyter Notebook is an interactive environment for coding, analysis, and visualization.",
     "postman": "Postman helps developers test and manage APIs efficiently.",
     "microsoft": "Microsoft 365 provides productivity tools for collaboration and document management.",
-    "figma": "Figma is a collaborative UI/UX design tool used for prototyping and interface design."
+    "figma": "Figma is a collaborative UI/UX design tool used for prototyping and interface design.",
+    "cursor": "Cursor is an AI-first code editor designed for pair-programming and accelerated software development.",
+    "chatgpt": "ChatGPT is an advanced AI assistant used for brainstorming, code generation, and general problem-solving.",
+    "claude": "Claude AI is an intelligent assistant capable of complex reasoning, code analysis, and high-quality content generation.",
+    "gemini": "Gemini is Google's multimodal AI model, utilized for deep analytical thinking, coding assistance, and reasoning tasks.",
+    "antigravity": "Antigravity is an innovative AI ecosystem tool utilized to streamline advanced smart workflows.",
+    "copilot": "GitHub Copilot is an AI pair programmer that provides real-time code suggestions directly inside the IDE.",
+    "vuejs": "Vue.js is a progressive JavaScript framework used for building interactive and flexible user interfaces."
   },
 
   "projects": {
@@ -236,7 +247,7 @@
     "articleErrorText": "⚠️ Preview not available in this browser",
     "articleOpen": "Open Article"
   },
-   "anousith": {
+  "anousith": {
     "nav": {
       "branches": "Branches",
       "downloadApp": "Download App"
@@ -327,6 +338,18 @@
         "typescript": {
           "name": "TypeScript",
           "desc": "Applied type safety to large codebases for fewer bugs and better maintainability."
+        },
+        "graphql": {
+          "name": "GraphQL",
+          "desc": "Designed flexible schemas and optimized queries to fetch data efficiently with single endpoints."
+        },
+        "apollo": {
+          "name": "Apollo Client",
+          "desc": "Managed global client-side state and cached server data to streamline complex API interactions."
+        },
+        "nextjs": {
+          "name": "Next.js",
+          "desc": "Leveraged server-side rendering and static site generation for optimized performance and SEO."
         }
       }
     },

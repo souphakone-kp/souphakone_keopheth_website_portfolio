@@ -64,27 +64,39 @@
     }
   },
   "skills": {
-    "python": "Python ໃຊ້ສຳລັບ backend, automation ແລະ data analysis",
-    "java": "Java ໃຊ້ສຳລັບລະບົບຂະໜາດໃຫຍ່",
-    "dart": "Dart ໃຊ້ສ້າງແອັບຫຼາຍແພລະຕະຟອມ",
-    "typescript": "TypeScript ຊ່ວຍໃຫ້ JavaScript ມີ type ແລະປອດໄພຂຶ້ນ",
-    "html": "HTML ໃຊ້ສ້າງໂຄງສ້າງເວັບໄຊ",
-    "css": "CSS ໃຊ້ຕົກແຕ່ງແລະອອກແບບເວັບ",
-    "javascript": "JavaScript ເຮັດໃຫ້ເວັບມີຄວາມ interactive",
-    "react": "React ໃຊ້ສ້າງ UI ທີ່ທັນສະໄໝ",
-    "node": "Node.js ເຮັດໃຫ້ JavaScript ໃຊ້ຝັ່ງ server",
-    "express": "Express.js ໃຊ້ສ້າງ API ແລະ backend",
-    "apollo": "Apollo ຊ່ວຍຈັດການ GraphQL",
-    "sql": "SQL ໃຊ້ຈັດການຖານຂໍ້ມູນ",
-    "mongodb": "MongoDB ເປັນ NoSQL database ທີ່ຍືດຫຍຸ່ນ",
-    "dbeaver": "DBeaver ເປັນເຄື່ອງມືຈັດການ database",
-    "superset": "Superset ໃຊ້ສຳລັບ data visualization",
-    "dremio": "Dremio ໃຊ້ວິເຄາະຂໍ້ມູນຂະໜາດໃຫຍ່",
-    "jupyter": "Jupyter Notebook ໃຊ້ວິເຄາະຂໍ້ມູນ",
-    "postman": "Postman ໃຊ້ສຳລັບທົດສອບ API",
-    "microsoft": "Microsoft 365 ໃຊ້ສຳລັບວຽກງານເອກະສານ",
-    "figma": "Figma ໃຊ້ອອກແບບ UI/UX"
+    "python": "Python ແມ່ນໄດ້ຮັບຄວາມນິຍົມຢ່າງກວ້າງຂວາງໃນການພັດທະນາ backend, ລະບົບອັດຕະໂນມັດ, ການວິເຄາະຂໍ້ມູນ ແລະ machine learning.",
+    "java": "Java ແມ່ນພາສາຂຽນໂປຣແກຣມແບບ object-oriented ທີ່ນິຍົມໃຊ້ໃນລະບົບອົງກອນຂະໜາດໃຫຍ່ ແລະ ແອັບພລິເຄຊັນ Android.",
+    "dart": "Dart ຖືກອອກແບບມາເພື່ອສ້າງແອັບພລິເຄຊັນທີ່ເຮັດວຽກໄດ້ໄວທັງໃນ mobile, web ແລະ desktop ໂດຍໃຊ້ Flutter.",
+    "typescript": "TypeScript ຊ່ວຍຂະຫຍາຍຄວາມສາມາດຂອງ JavaScript ໂດຍການເພີ່ມ static typing ແລະ ເຄື່ອງມືຊ່ວຍພັດທະນາທີ່ດີຂຶ້ນ.",
+    "golang": "Go (Golang) ແມ່ນພາສາ open-source ທີ່ພັດທະນາໂດຍ Google ອອກແບບມາເພື່ອສ້າງລະບົບ backend ທີ່ມີປະສິດທິພາບສູງ ແລະ ຮອງຮັບການຂະຫຍາຍຕົວໄດ້ດີ.",
+    "html": "HTML ເປັນໂຄງສ້າງ ແລະ ພື້ນຖານເນື້ອຫາສຳລັບການສ້າງເວັບໄຊ.",
+    "css": "CSS ແມ່ນໃຊ້ເພື່ອຕົບແຕ່ງ ແລະ ອອກແບບເວັບອິນເຕີເຟດໃຫ້ມີຄວາມສວຍງາມ ແລະ ຮອງຮັບ responsive.",
+    "javascript": "JavaScript ຊ່ວຍໃຫ້ເວັບໄຊ ແລະ ແອັບພລິເຄຊັນສາມາດໂຕ້ຕອບກັບຜູ້ໃຊ້ໄດ້ແບບ dynamic.",
+    "react": "React ແມ່ນ JavaScript library ສຳລັບການສ້າງ user interfaces ທີ່ເຮັດວຽກໄດ້ໄວ ແລະ ສາມາດນຳກັບມາໃຊ້ຊ້ຳໄດ້.",
+    "nextjs": "Next.js ແມ່ນ React framework ທີ່ຮອງຮັບ server-side rendering, static site generation ແລະ ເພີ່ມປະສິດທິພາບໃຫ້ກັບເວັບແອັບພລິເຄຊັນ.",
+    "node": "Node.js ຊ່ວຍໃຫ້ JavaScript ສາມາດເຮັດວຽກໃນຝັ່ງ server ເພື່ອສ້າງລະບົບ backend ທີ່ຮອງຮັບການເຮັດວຽກຂະໜາດໃຫຍ່ໄດ້.",
+    "express": "Express.js ແມ່ນ framework ທີ່ເບົາບາງ ແລະ ຢືດຢຸ່ນ ສຳລັບການສ້າງ APIs ແລະ ແອັບພລິເຄຊັນຝັ່ງ backend.",
+    "apollo": "Apollo GraphQL ຊ່ວຍໃຫ້ການຈັດການ API, ການເຮັດ cache ແລະ ການຮັບສົ່ງຂໍ້ມູນລະຫວ່າງ frontend ແລະ backend ມີຄວາມງ່າຍດາຍຂຶ້ນ.",
+    "sql": "SQL ແມ່ນໃຊ້ສຳລັບການຈັດການ, ສອບຖາມ (query) ແລະ ປ່ຽນແປງຂໍ້ມູນໃນຖານຂໍ້ມູນແບບ relational.",
+    "mongodb": "MongoDB ແມ່ນ NoSQL database ທີ່ຖືກອອກແບບມາເພື່ອຮອງຮັບຂໍ້ມູນທີ່ມີຄວາມຢືດຢຸ່ນ ແລະ ການຂະຫຍາຍຕົວຂອງແອັບພລິເຄຊັນ.",
+    "dbeaver": "DBeaver ແມ່ນເຄື່ອງມືຈັດການຖານຂໍ້ມູນ ທີ່ຮອງຮັບລະບົບຖານຂໍ້ມູນທີ່ຫຼາກຫຼາຍ.",
+    "firebase": "Firebase ແມ່ນແພລດຟອມ Backend-as-a-Service (BaaS) ຈາກ Google ທີ່ມີຖານຂໍ້ມູນ real-time, ລະບົບຢືນຢັນຕົວຕົນ ແລະ hosting.",
+    "supabase": "Supabase ແມ່ນ open-source alternative ຂອງ Firebase ທີ່ມີຖານຂໍ້ມູນ PostgreSQL, ລະບົບຢືນຢັນຕົວຕົນ ແລະ real-time APIs.",
+    "superset": "Apache Superset ແມ່ນແພລດຟອມທີ່ທັນສະໄໝສຳລັບການເຮັດ data visualization ແລະ ວິເຄາະຂໍ້ມູນໃນຮູບແບບ dashboard.",
+    "dremio": "Dremio ຊ່ວຍໃຫ້ການເຮັດ data lake analytics ແລະ ການປະມວນຜົນຄຳສັ່ງ query ມີຄວາມໄວສູງຂຶ້ນ.",
+    "jupyter": "Jupyter Notebook ແມ່ນສະພາບແວດລ້ອມແບບ interactive ສຳລັບການຂຽນໂຄ້ດ, ວິເຄາະຂໍ້ມູນ ແລະ ສະແດງຜົນໃນຮູບແບບພາບ.",
+    "postman": "Postman ຊ່ວຍໃຫ້ຜູ້ພັດທະນາສາມາດທົດສອບ ແລະ ຈັດການ APIs ໄດ້ຢ່າງມີປະສິດທິພາບ.",
+    "microsoft": "Microsoft 365 ໃຫ້ບໍລິການເຄື່ອງມືດ້ານການເຮັດວຽກ ເພື່ອຊ່ວຍໃນການເຮັດວຽກຮ່ວມກັນ ແລະ ການຈັດການເອກະສານ.",
+    "figma": "Figma ແມ່ນເຄື່ອງມືອອກແບບ UI/UX ແບບຄໍລາບໍຣີທີຟ ທີ່ໃຊ້ສຳລັບການສ້າງ prototype ແລະ ການອອກແບບອິນເຕີເຟດ.",
+    "cursor": "Cursor ແມ່ນ code editor ທີ່ຂັບເຄື່ອນດ້ວຍ AI ອອກແບບມາເພື່ອຊ່ວຍໃນການຂຽນໂຄ້ດຮ່ວມກັນ ແລະ ເລັ່ງການພັດທະນາຊອບແວ.",
+    "chatgpt": "ChatGPT ແມ່ນຜູ້ຊ່ວຍ AI ທີ່ກ້າວໜ້າ ໃຊ້ສຳລັບການລະດົມສະໝອງ, ສ້າງໂຄ້ດ ແລະ ແກ້ໄຂບັນຫາທົ່ວໄປ.",
+    "claude": "Claude AI ແມ່ນຜູ້ຊ່ວຍອັດສະລິຍະ ທີ່ມີຄວາມສາມາດໃນການຄິດຫາເຫດຜົນທີ່ຊັບຊ້ອນ, ວິເຄາະໂຄ້ດ ແລະ ສ້າງເນື້ອຫາທີ່ມີຄຸນນະພາບສູງ.",
+    "gemini": "Gemini ແມ່ນໂມເດລ AI ແບບ multimodal ຈາກ Google ທີ່ໃຊ້ສຳລັບການວິເຄາະຢ່າງເລິກເຊິ່ງ, ຊ່ວຍຂຽນໂຄ້ດ ແລະ ການຄິດຫາເຫດຜົນ.",
+    "antigravity": "Antigravity ແມ່ນເຄື່ອງມືໃນລະບົບນິເວດ AI ທີ່ທັນສະໄໝ ໃຊ້ເພື່ອປັບປຸງ ແລະ ຈັດການ workflow ໃຫ້ມີຄວາມຄ່ອງຕົວ.",
+    "copilot": "GitHub Copilot ແມ່ນ AI pair programmer ທີ່ຊ່ວຍແນະນຳໂຄ້ດແບບ real-time ພາຍໃນ IDE ໂດຍກົງ.",
+    "vuejs": "Vue.js ແມ່ນ progressive JavaScript framework ທີ່ໃຊ້ສຳລັບການສ້າງ user interfaces ທີ່ມີການໂຕ້ຕອບ ແລະ ຢືດຢຸ່ນ."
   },
+  
   "projects": {
     "obsh": {
       "title": "ເວັບໄຊ OBSH",
@@ -310,7 +322,19 @@
         },
         "typescript": {
           "name": "TypeScript",
-          "desc": "ນຳ type safety ມາໃຊ້ກັບ codebase ຂະໜາດໃຫຍ່ເພື່ອຫຼຸດຂໍ້ຜິດພາດ ແລະ ເພີ່ມຄວາມສາມາດໃນການບຳລຸງຮັກສາ"
+          "desc": "ນຳ type safety ມາໃຊ້ກັບ codebase ຂະໜາດໃຫຍ່ເພື່ອຫຼຸດຂໍ້ຜິດພາດ ແລະ ເພີ່ມຄວາມສາມາດໃນການບຳລຸງຮັກສາ."
+        },
+        "graphql": {
+          "name": "GraphQL",
+          "desc": "ອອກແບບ flexible schemas ແລະ optimize ຄຳສັ່ງ queries ເພື່ອດຶງຂໍ້ມູນຢ່າງມີປະສິດທິພາບຜ່ານ single endpoint."
+        },
+        "apollo": {
+          "name": "Apollo Client",
+          "desc": "ຈັດການ global client-side state ແລະ cache ຂໍ້ມູນຈາກ server ເພື່ອໃຫ້ການເຮັດວຽກກັບ API ທີ່ມີຄວາມຊັບຊ້ອນມີຄວາມຄ່ອງຕົວຂຶ້ນ."
+        },
+        "nextjs": {
+          "name": "Next.js",
+          "desc": "ນຳໃຊ້ server-side rendering ແລະ static site generation ເພື່ອເພີ່ມປະສິດທິພາບການເຮັດວຽກ ແລະ SEO ໃຫ້ດີທີ່ສຸດ."
         }
       }
     },

@@ -18,7 +18,7 @@ const url =
   "https://wisesight.com/th/articles/internship-business-data-and-analytics/";
 
 const TOOL_LOGOS = {
-  superset: "https://logo.svgcdn.com/l/apache-superset-icon.png",
+  superset: "https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/1/apache-superset-icon-cyc19fiufldpekdt6c7jg.png/apache-superset-icon-80ygkwbe76iyhvftejjahm.png?_a=DATAiZAAZAA0",
   dremio: "https://vectorlogo.zone/logos/dremio/dremio-icon.svg",
   jupyter:
     "https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg",

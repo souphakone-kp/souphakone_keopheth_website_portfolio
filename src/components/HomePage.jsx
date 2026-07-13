@@ -355,7 +355,7 @@ function HomePage() {
           <Link to={Paths.ANOUSITH} className="exp-card">
             <div className="exp-card-img-wrap">
               <img
-                src="https://tapchilaoviet.org/wp-content/uploads/2024/04/10.jpg"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUEBMWjjoB0RABer3IAGvo-aADcNuwoGmSrk461n6_GXQVLPEQuDr039k&s=10"
                 alt={t.experience.work.title}
               />
 

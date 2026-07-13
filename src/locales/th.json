@@ -64,26 +64,37 @@
     }
   },
   "skills": {
-    "python": "Python ใช้สำหรับ backend, automation และ data analysis",
-    "java": "Java ใช้สำหรับระบบองค์กรและแอปขนาดใหญ่",
-    "dart": "Dart ใช้สำหรับพัฒนาแอปหลายแพลตฟอร์ม",
-    "typescript": "TypeScript ช่วยเพิ่มความปลอดภัยของ JavaScript ด้วยระบบ type",
-    "html": "HTML ใช้สำหรับสร้างโครงสร้างของเว็บไซต์",
-    "css": "CSS ใช้สำหรับตกแต่งและออกแบบหน้าเว็บไซต์",
-    "javascript": "JavaScript ใช้สร้างความโต้ตอบในเว็บไซต์",
-    "react": "React ใช้สร้าง UI ที่ทันสมัยและขยายได้",
-    "node": "Node.js ทำให้ JavaScript ทำงานฝั่ง server ได้",
-    "express": "Express.js ใช้สำหรับสร้าง API และ backend",
-    "apollo": "Apollo ช่วยจัดการข้อมูล GraphQL",
-    "sql": "SQL ใช้สำหรับจัดการฐานข้อมูลเชิงสัมพันธ์",
-    "mongodb": "MongoDB เป็นฐานข้อมูล NoSQL ที่ยืดหยุ่น",
-    "dbeaver": "DBeaver เป็นเครื่องมือจัดการฐานข้อมูล",
-    "superset": "Apache Superset ใช้สำหรับ visualization และ BI",
-    "dremio": "Dremio ใช้สำหรับวิเคราะห์ข้อมูลขนาดใหญ่",
-    "jupyter": "Jupyter Notebook ใช้สำหรับวิเคราะห์ข้อมูลแบบ interactive",
-    "postman": "Postman ใช้สำหรับทดสอบ API",
-    "microsoft": "Microsoft 365 ใช้สำหรับงานเอกสารและการทำงานร่วมกัน",
-    "figma": "Figma ใช้สำหรับออกแบบ UI/UX"
+    "python": "Python ได้รับความนิยมอย่างกว้างขวางในการพัฒนา backend, ระบบอัตโนมัติ, การวิเคราะห์ข้อมูล และ machine learning.",
+    "java": "Java เป็นภาษาเขียนโปรแกรมแบบ object-oriented ที่นิยมใช้ในระบบองค์กรขนาดใหญ่ และแอปพลิเคชัน Android.",
+    "dart": "Dart ถูกออกแบบมาเพื่อสร้างแอปพลิเคชันที่ทำงานได้รวดเร็วทั้งบน mobile, web และ desktop โดยใช้ Flutter.",
+    "typescript": "TypeScript ช่วยขยายความสามารถของ JavaScript โดยการเพิ่ม static typing และเครื่องมือช่วยพัฒนาที่ดีขึ้น.",
+    "golang": "Go (Golang) เป็นภาษา open-source ที่พัฒนาโดย Google ออกแบบมาเพื่อสร้างระบบ backend ที่มีประสิทธิภาพสูงและรองรับการขยายตัวได้ดี.",
+    "html": "HTML เป็นโครงสร้างและพื้นฐานเนื้อหาสำหรับการสร้างเว็บไซต์.",
+    "css": "CSS ใช้เพื่อตกแต่งและออกแบบเว็บอินเตอร์เฟสให้มีความสวยงามและรองรับ responsive.",
+    "javascript": "JavaScript ช่วยให้เว็บไซต์และแอปพลิเคชันสามารถโต้ตอบกับผู้ใช้ได้แบบ dynamic.",
+    "react": "React เป็น JavaScript library สำหรับการสร้าง user interfaces ที่ทำงานได้รวดเร็วและสามารถนำกลับมาใช้ซ้ำได้.",
+    "nextjs": "Next.js เป็น React framework ที่รองรับ server-side rendering, static site generation และเพิ่มประสิทธิภาพให้กับเว็บแอปพลิเคชัน.",
+    "node": "Node.js ช่วยให้ JavaScript สามารถทำงานในฝั่ง server เพื่อสร้างระบบ backend ที่รองรับการทำงานขนาดใหญ่ได้.",
+    "express": "Express.js เป็น framework ที่เบาบางและยืดหยุ่น สำหรับการสร้าง APIs และแอปพลิเคชันฝั่ง backend.",
+    "apollo": "Apollo GraphQL ช่วยให้การจัดการ API, การทำ cache และการรับส่งข้อมูลระหว่าง frontend และ backend มีความง่ายดายยิ่งขึ้น.",
+    "sql": "SQL ใช้สำหรับการจัดการ, สอบถาม (query) และเปลี่ยนแปลงข้อมูลในฐานข้อมูลแบบ relational.",
+    "mongodb": "MongoDB เป็น NoSQL database ที่ถูกออกแบบมาเพื่อรองรับข้อมูลที่มีความยืดหยุ่นและการขยายตัวของแอปพลิเคชัน.",
+    "dbeaver": "DBeaver เป็นเครื่องมือจัดการฐานข้อมูลที่รองรับระบบฐานข้อมูลที่หลากหลาย.",
+    "firebase": "Firebase เป็นแพลตฟอร์ม Backend-as-a-Service (BaaS) จาก Google ที่มีฐานข้อมูล real-time, ระบบยืนยันตัวตน และ hosting.",
+    "supabase": "Supabase เป็น open-source alternative ของ Firebase ที่มีฐานข้อมูล PostgreSQL, ระบบยืนยันตัวตน และ real-time APIs.",
+    "superset": "Apache Superset เป็นแพลตฟอร์มที่ทันสมัยสำหรับการทำ data visualization และวิเคราะห์ข้อมูลในรูปแบบ dashboard.",
+    "dremio": "Dremio ช่วยให้การทำ data lake analytics และการประมวลผลคำสั่ง query มีความรวดเร็วสูงขึ้น.",
+    "jupyter": "Jupyter Notebook เป็นสภาพแวดล้อมแบบ interactive สำหรับการเขียนโค้ด, วิเคราะห์ข้อมูล และแสดงผลในรูปแบบภาพ.",
+    "postman": "Postman ช่วยให้ผู้พัฒนาสามารถทดสอบและจัดการ APIs ได้อย่างมีประสิทธิภาพ.",
+    "microsoft": "Microsoft 365 ให้บริการเครื่องมือด้านการทำงานเพื่อช่วยในการทำงานร่วมกันและการจัดการเอกสาร.",
+    "figma": "Figma เป็นเครื่องมือออกแบบ UI/UX แบบคอลลาบอเรทีฟ ที่ใช้สำหรับการสร้าง prototype และการออกแบบอินเตอร์เฟส.",
+    "cursor": "Cursor เป็น code editor ที่ขับเคลื่อนด้วย AI ออกแบบมาเพื่อช่วยในการเขียนโค้ดร่วมกันและเร่งการพัฒนาซอฟต์แวร์.",
+    "chatgpt": "ChatGPT เป็นผู้ช่วย AI ที่ก้าวหน้า ใช้สำหรับการระดมสมอง, สร้างโค้ด และแก้ไขปัญหาทั่วไป.",
+    "claude": "Claude AI เป็นผู้ช่วยอัจฉริยะ ที่มีความสามารถในการคิดหาเหตุผลที่ซับซ้อน, วิเคราะห์โค้ด และสร้างเนื้อหาที่มีคุณภาพสูง.",
+    "gemini": "Gemini เป็นโมเดล AI แบบ multimodal จาก Google ที่ใช้สำหรับการวิเคราะห์อย่างลึกซึ้ง, ช่วยเขียนโค้ด และการคิดหาเหตุผล.",
+    "antigravity": "Antigravity เป็นเครื่องมือในระบบนิเวด AI ที่ทันสมัย ใช้เพื่อปรับปรุงและจัดการ workflow ให้มีความคล่องตัว.",
+    "copilot": "GitHub Copilot เป็น AI pair programmer ที่ช่วยแนะนำโค้ดแบบ real-time ภายใน IDE โดยตรง.",
+    "vuejs": "Vue.js เป็น progressive JavaScript framework ที่ใช้สำหรับการสร้าง user interfaces ที่มีการโต้ตอบและยืดหยุ่น."
   },
   "projects": {
     "obsh": {
@@ -220,7 +231,7 @@
     "articleErrorText": "⚠️ ไม่สามารถแสดงตัวอย่างในเบราว์เซอร์นี้ได้",
     "articleOpen": "เปิดบทความ"
   },
-   "anousith": {
+  "anousith": {
     "nav": {
       "branches": "สาขา",
       "downloadApp": "ดาวน์โหลดแอป"
@@ -311,6 +322,18 @@
         "typescript": {
           "name": "TypeScript",
           "desc": "นำ type safety มาใช้กับ codebase ขนาดใหญ่เพื่อลดข้อผิดพลาดและเพิ่มความสามารถในการบำรุงรักษา"
+        },
+        "graphql": {
+          "name": "GraphQL",
+          "desc": "ออกแบบ flexible schemas และ optimize คำสั่ง queries เพื่อดึงข้อมูลอย่างมีประสิทธิภาพผ่าน single endpoint."
+        },
+        "apollo": {
+          "name": "Apollo Client",
+          "desc": "จัดการ global client-side state และ cache ข้อมูลจาก server เพื่อให้การทำงานร่วมกับ API ที่มีความซับซ้อนมีความลื่นไหลยิ่งขึ้น."
+        },
+        "nextjs": {
+          "name": "Next.js",
+          "desc": "นำเสนอการทำ server-side rendering และ static site generation เพื่อเพิ่มประสิทธิภาพการทำงานและ SEO ให้ดีที่สุด."
         }
       }
     },

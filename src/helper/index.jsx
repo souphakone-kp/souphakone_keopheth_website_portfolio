@@ -162,7 +162,7 @@ export const skills = [
   // ===== Data =====
   {
     name: "Apache Superset",
-    logo: "https://logo.svgcdn.com/l/apache-superset-icon.png",
+    logo: "https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/1/apache-superset-icon-cyc19fiufldpekdt6c7jg.png/apache-superset-icon-80ygkwbe76iyhvftejjahm.png?_a=DATAiZAAZAA0",
     descKey: "superset",
     cats: ["Data"],
   },
