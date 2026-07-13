@@ -246,14 +246,15 @@ function Intern() {
 
         <div className="itn-article-preview">
           <div className="itn-tiny-wrapper">
-            <ReactTinyLink
+          {/*   <ReactTinyLink
               cardSize="large"
               showGraphic={true}
               maxLine={2}
               minLine={1}
               url={url}
               className="full-width-tiny-link"
-            />
+            /> */}
+            <img src={"https://wisesight.com/wp-content/webp-express/webp-images/uploads/2025/05/internship-blog_Boss-Bank_.png.webp"} alt="Article Preview" />
           </div>
 
           <a
