@@ -94,7 +94,9 @@
     "gemini": "Gemini ແມ່ນໂມເດລ AI ແບບ multimodal ຈາກ Google ທີ່ໃຊ້ສຳລັບການວິເຄາະຢ່າງເລິກເຊິ່ງ, ຊ່ວຍຂຽນໂຄ້ດ ແລະ ການຄິດຫາເຫດຜົນ.",
     "antigravity": "Antigravity ແມ່ນເຄື່ອງມືໃນລະບົບນິເວດ AI ທີ່ທັນສະໄໝ ໃຊ້ເພື່ອປັບປຸງ ແລະ ຈັດການ workflow ໃຫ້ມີຄວາມຄ່ອງຕົວ.",
     "copilot": "GitHub Copilot ແມ່ນ AI pair programmer ທີ່ຊ່ວຍແນະນຳໂຄ້ດແບບ real-time ພາຍໃນ IDE ໂດຍກົງ.",
-    "vuejs": "Vue.js ແມ່ນ progressive JavaScript framework ທີ່ໃຊ້ສຳລັບການສ້າງ user interfaces ທີ່ມີການໂຕ້ຕອບ ແລະ ຢືດຢຸ່ນ."
+    "vuejs": "Vue.js ແມ່ນ progressive JavaScript framework ທີ່ໃຊ້ສຳລັບການສ້າງ user interfaces ທີ່ມີການໂຕ້ຕອບ ແລະ ຢືດຢຸ່ນ.",
+    "xampp": "XAMPP ແມ່ນສະພາບແວດລ້ອມຈຳລອງເຊີເວີທ້ອງຖິ່ນແບບໂອເພນຊອດຟຣີ ທີ່ປະກອບມີ Apache, MariaDB/MySQL ແລະ PHP",
+    "phpmyadmin": "phpMyAdmin ແມ່ນເຄື່ອງມືຈັດການຖານຂໍ້ມູນ MySQL ແລະ MariaDB ຜ່ານເວັບບຣາວເຊີທີ່ໃຊ້ງານງ່າຍ"
   },
   
   "projects": {

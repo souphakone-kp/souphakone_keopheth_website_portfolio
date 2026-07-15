@@ -93,7 +93,9 @@
     "gemini": "Gemini is Google's multimodal AI model, utilized for deep analytical thinking, coding assistance, and reasoning tasks.",
     "antigravity": "Antigravity is an innovative AI ecosystem tool utilized to streamline advanced smart workflows.",
     "copilot": "GitHub Copilot is an AI pair programmer that provides real-time code suggestions directly inside the IDE.",
-    "vuejs": "Vue.js is a progressive JavaScript framework used for building interactive and flexible user interfaces."
+    "vuejs": "Vue.js is a progressive JavaScript framework used for building interactive and flexible user interfaces.",
+    "xampp": "XAMPP is a free and open-source local server environment containing Apache, MariaDB/MySQL, and PHP.",
+    "phpmyadmin": "phpMyAdmin is a web-based administration tool used for managing MySQL and MariaDB databases easily."
   },
 
   "projects": {

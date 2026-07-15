@@ -178,6 +178,19 @@ export const skills = [
     descKey: "jupyter",
     cats: ["Data", "Programming"],
   },
+  {
+
+    name: "phpMyAdmin",
+    logo: "https://www.vectorlogo.zone/logos/phpmyadmin/phpmyadmin-icon.svg",
+    descKey: "phpmyadmin",
+    cats: ["Database", "Tools"],
+  },
+  {
+    name: "XAMPP",
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHlQQXjfLFIshkIDRGA_iir5MZ_nRd529BJIsiWwE6-Q&s=10",
+    descKey: "xampp",
+    cats: ["Tools", "Backend", "Database"],
+  },
 
   // ===== Tools =====
   {
