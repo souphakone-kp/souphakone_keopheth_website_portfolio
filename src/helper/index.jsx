@@ -262,4 +262,10 @@ export const skills = [
     descKey: "vuejs",
     cats: ["Frontend", "Framework"],
   },
+  {
+    name: "Docker",
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
+    descKey: "docker",
+    cats: ["Tools", "DevOps"],
+  },
 ];

@@ -94,6 +94,7 @@
     "antigravity": "Antigravity is an innovative AI ecosystem tool utilized to streamline advanced smart workflows.",
     "copilot": "GitHub Copilot is an AI pair programmer that provides real-time code suggestions directly inside the IDE.",
     "vuejs": "Vue.js is a progressive JavaScript framework used for building interactive and flexible user interfaces.",
+    "docker": "Docker is a platform for building, shipping, and running applications in lightweight, portable containers.",
     "xampp": "XAMPP is a free and open-source local server environment containing Apache, MariaDB/MySQL, and PHP.",
     "phpmyadmin": "phpMyAdmin is a web-based administration tool used for managing MySQL and MariaDB databases easily."
   },
