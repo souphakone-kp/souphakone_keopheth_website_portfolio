@@ -194,7 +194,7 @@ function HomePage() {
           <h4>{t.home.degree}</h4>
 
           <a
-            href="https://www.linkedin.com/in/souphakone-youjalearn-67543b327/"
+            href="https://www.linkedin.com/in/souphakone-keopheth-67543b327/"
             target="_blank"
             rel="noreferrer"
             className="btn btn2 btn-small"
