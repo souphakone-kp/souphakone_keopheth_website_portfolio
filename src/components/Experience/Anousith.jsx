@@ -74,7 +74,7 @@ function Anousith() {
 
   const STATS = [
     { num: "10", label: a.stats.months },
-    { num: "500+", label: a.stats.branches },
+    { num: "800+", label: a.stats.branches },
     { num: "4+", label: a.stats.systems },
     { num: "18+", label: a.stats.provinces },
   ];
