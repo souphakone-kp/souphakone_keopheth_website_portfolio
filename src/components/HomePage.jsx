@@ -7,7 +7,7 @@ import th from "./../locales/th.json";
 import lo from "./../locales/lo.json";
 import { Paths } from "../routes/app";
 
-import profiledp from "./../assets/image/profiledp.png";
+import profiledp from "./../assets/image/profileMain.png";
 import cvFile from "./../assets/image/Resume_Souphakone_keopheth.pdf";
 import cer1 from "./../assets/image/cer1.png";
 import cer3 from "./../assets/image/cer3.png";
