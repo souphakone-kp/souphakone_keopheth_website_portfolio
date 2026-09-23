@@ -1,18 +1,19 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { useLanguage } from "../../context/LanguageContext";
 import { NavBarItem } from "../../helper";
 import img_profile from "../../assets/image/profiledp3.png";
 import cert1 from "../../assets/imageEx/Certificate_Bu_wisesight.pdf";
 import cert2 from "../../assets/imageEx/Certificate_wisesight.pdf";
-import { ReactTinyLink } from "react-tiny-link";
 import en from "../../locales/en.json";
 import th from "../../locales/th.json";
 import lo from "../../locales/lo.json";
+import ch from "../../locales/ch.json";
+
 
 import "./style/WiseSight.css";
 
-const translations = { en, th, lo };
+const translations = { en, th, lo, ch };
 
 const url =
   "https://wisesight.com/th/articles/internship-business-data-and-analytics/";
@@ -33,27 +34,27 @@ const TOOL_NAMES = {
   pythonSql: "Python + SQL",
 };
 
-const SWOT_LABELS = {
+/* const SWOT_LABELS = {
   s: "Strengths",
   w: "Weaknesses",
   o: "Opportunities",
   t: "Threats",
-};
+}; */
 
 function Intern() {
   const { language, setLanguage } = useLanguage();
   const t = translations[language]?.intern;
   const [menuOpen, setMenuOpen] = useState(false);
   const location = useLocation();
-  const [iframeError, setIframeError] = useState(false);
+  /*   const [iframeError, setIframeError] = useState(false);
+  
+    const [iframeLoading, setIframeLoading] = useState(true); */
+  /*   const isProbablyBlocked = iframeLoading && !iframeError; */
 
-  const [iframeLoading, setIframeLoading] = useState(true);
-  const isProbablyBlocked = iframeLoading && !iframeError;
-
-  const handleIframeLoad = () => {
-    setIframeLoading(false);
-    setIframeError(false);
-  };
+  /*   const handleIframeLoad = () => {
+      setIframeLoading(false);
+      setIframeError(false);
+    }; */
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -89,6 +90,13 @@ function Intern() {
           >
             LO
           </button>
+
+          <button
+            className={language === "ch" ? "active-lang" : ""}
+            onClick={() => setLanguage("ch")}
+          >
+            CH
+          </button>
         </div>
 
         <i
@@ -99,16 +107,16 @@ function Intern() {
 
         <nav className={`navbar ${menuOpen ? "active" : ""}`}>
           <Link
-              to="/home"
-              className="itn-header-back"
-              onClick={() => {
-                window.scrollTo(0, 0);
-                setMenuOpen(false);
-              }}
-              style={{ fontSize: "1.6rem" }}
-            >
-              Return
-            </Link>
+            to="/home"
+            className="itn-header-back"
+            onClick={() => {
+              window.scrollTo(0, 0);
+              setMenuOpen(false);
+            }}
+            style={{ fontSize: "1.6rem" }}
+          >
+            Return
+          </Link>
         </nav>
       </header>
 
@@ -246,7 +254,7 @@ function Intern() {
 
         <div className="itn-article-preview">
           <div className="itn-tiny-wrapper">
-          {/*   <ReactTinyLink
+            {/*   <ReactTinyLink
               cardSize="large"
               showGraphic={true}
               maxLine={2}

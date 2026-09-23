@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { useLanguage } from "../../context/LanguageContext"; // นำเข้า Context
+import { useLanguage } from "../../context/LanguageContext";
 import { Paths } from "../../routes/app";
 
 // Import Assets
@@ -19,9 +19,11 @@ import futuretemp from "../../assets/image2/futuretemp.png";
 import en from "../../locales/en.json";
 import th from "../../locales/th.json";
 import lo from "../../locales/lo.json";
+import ch from "../../locales/ch.json";
+
 import { NavBarItem } from "../../helper";
 
-const translations = { en, th, lo };
+const translations = { en, th, lo, ch };
 
 function Education() {
   const { language, setLanguage } = useLanguage();
@@ -87,6 +89,13 @@ function Education() {
             onClick={() => setLanguage("lo")}
           >
             LO
+          </button>
+
+          <button
+            className={language === "ch" ? "active-lang" : ""}
+            onClick={() => setLanguage("ch")}
+          >
+            CH
           </button>
         </div>
         <i

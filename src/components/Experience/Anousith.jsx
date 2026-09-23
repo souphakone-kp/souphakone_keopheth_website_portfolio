@@ -1,4 +1,4 @@
-import  { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { useLanguage } from "../../context/LanguageContext";
 import { NavBarItem } from "../../helper";
@@ -8,9 +8,12 @@ import cert1 from "../../assets/imageEx/anousith_work_cert.pdf";
 import en from "../../locales/en.json";
 import th from "../../locales/th.json";
 import lo from "../../locales/lo.json";
+import ch from "../../locales/ch.json";
+
+
 import "./style/Anousith.css";
 
-const translations = { en, th, lo };
+const translations = { en, th, lo, ch };
 
 const ANS_LOGO = "https://anousith.express/assets/imgs/ans-logo.png";
 const NEXT_LOGO = "https://anousith.express/assets/imgs/logo_next_day.png";
@@ -113,6 +116,13 @@ function Anousith() {
             onClick={() => setLanguage("lo")}
           >
             LO
+          </button>
+
+          <button
+            className={language === "ch" ? "active-lang" : ""}
+            onClick={() => setLanguage("ch")}
+          >
+            CH
           </button>
         </div>
 

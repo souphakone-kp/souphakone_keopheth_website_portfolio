@@ -1,0 +1,381 @@
+{
+  "nav": {
+    "home": "首页",
+    "about": "关于我",
+    "skills": "技能",
+    "project": "项目",
+    "certificate": "证书",
+    "contact": "联系方式"
+  },
+
+  "home": {
+    "intro": "你好，我是",
+    "degree": "计算机科学毕业生 · 软件开发人员 · 数据分析师",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "download": "下载简历"
+  },
+
+  "sections": {
+    "skills": "我的技能",
+    "experience": "项目经历",
+    "certificate": "证书与凭证",
+    "contact": "联系我"
+  },
+
+  "aboutSection": {
+    "label": "工作经历与背景",
+    "title": "关于",
+    "highlight": "我",
+    "subtitle": "计算机科学毕业生 · 数据分析师 · 软件开发人员"
+  },
+
+  "experience": {
+    "education": {
+      "type": "教育背景",
+      "year": "2022 – 2025",
+      "org": "曼谷大学 · SITI",
+      "title": "学士学位",
+      "role": "计算机科学 · (一等荣誉学位)",
+      "desc": "信息技术与创新学院（计算机科学理学学士）。",
+      "button": "查看详情"
+    },
+
+    "internship": {
+      "type": "实习经历",
+      "year": "2025年 1月 – 4月",
+      "org": "Wisesight (Thailand)",
+      "title": "商业数据分析师 (数据工程师)",
+      "role": "社交媒体聆听与分析",
+      "desc": "在实际业务环境中应用技术技能，深入理解商业环境中基于数据驱动的决策制定。",
+      "button": "查看详情"
+    },
+
+    "work": {
+      "type": "全职",
+      "year": "2025年7月 - 2026年4月",
+      "org": "Anousith Express Logistics",
+      "title": "软件开发人员",
+      "role": "React · Node.js · TypeScript",
+      "desc": "开发内部系统以提升运营效率，为物流行业构建稳健的解决方案。",
+      "button": "查看详情"
+    }
+  },
+
+  "skills": {
+    "python": "Python 广泛用于后端开发、自动化、数据分析和机器学习。",
+    "java": "Java 是一种面向对象的编程语言，常用于企业级应用和 Android 开发。",
+    "dart": "Dart 经过优化，适合搭配 Flutter 构建跨移动端、Web 和桌面端的高效应用。",
+    "typescript": "TypeScript 扩展了 JavaScript，提供了静态类型检查和更完善的开发工具支持。",
+    "golang": "Go (Golang) 是由 Google 开发的开源语言，专为构建高性能且易扩展的后端系统而设计。",
+    "html": "HTML 为网站提供结构和内容基础。",
+    "css": "CSS 用于设计和样式化响应式的现代 Web 界面。",
+    "javascript": "JavaScript 赋予网站和应用程序交互性和动态功能。",
+    "react": "React 是用于构建高效且可复用用户界面的 JavaScript 库。",
+    "nextjs": "Next.js 是一个 React 框架，支持服务端渲染、静态网站生成并能极大优化 Web 应用性能。",
+    "node": "Node.js 允许 JavaScript 在服务端运行，用于构建可扩展的后端系统。",
+    "express": "Express.js 是一个用于构建 API 和后端应用程序的轻量级框架。",
+    "apollo": "Apollo GraphQL 简化了 API 管理、缓存以及前后端之间的数据通信。",
+    "sql": "SQL 用于管理、查询和操作关系型数据库。",
+    "mongodb": "MongoDB 是专为灵活和可扩展应用设计的 NoSQL 数据库。",
+    "dbeaver": "DBeaver 是一款支持多种数据库系统的通用数据库管理工具。",
+    "firebase": "Firebase 是 Google 提供的后端即服务 (BaaS) 平台，提供实时数据库、身份验证和托管服务。",
+    "supabase": "Supabase 是一个开源的 Firebase 替代方案，提供托管的 PostgreSQL 数据库、身份验证和实时 API。",
+    "superset": "Apache Superset 是一个用于数据可视化和仪表板分析的现代平台。",
+    "dremio": "Dremio 可加速数据湖分析并提升查询性能。",
+    "jupyter": "Jupyter Notebook 是一个用于代码编写、数据分析和可视化的交互式环境。",
+    "postman": "Postman 帮助开发者高效地测试和管理 API。",
+    "microsoft": "Microsoft 365 提供用于团队协作和文档管理的生产力工具。",
+    "figma": "Figma 是一款协同 UI/UX 设计工具，常用于原型设计和界面交互设计。",
+    "cursor": "Cursor 是一款 AI 优先的代码编辑器，旨在提高结对编程与软件开发效率。",
+    "chatgpt": "ChatGPT 是一款先进的 AI 助手，常用于头脑风暴、代码生成和通用问题解决。",
+    "claude": "Claude AI 是一款智能助手，具备复杂推理、代码分析和高质量内容生成能力。",
+    "gemini": "Gemini 是 Google 的多模态 AI 模型，适用于深度分析思考、编程辅助和逻辑推理任务。",
+    "antigravity": "Antigravity 是一款创新的 AI 生态工具，旨在优化和简化高级智能工作流。",
+    "copilot": "GitHub Copilot 是一款 AI 结对程序员，能在 IDE 内提供实时代码建议。",
+    "vuejs": "Vue.js 是一款渐进式 JavaScript 框架，用于构建灵活且富有交互性的用户界面。",
+    "docker": "Docker 是一款可以在轻量级、可移植容器中构建、交付和运行应用程序的平台。",
+    "xampp": "XAMPP 是一个免费开源的本地服务器环境，集成了 Apache、MariaDB/MySQL 和 PHP。",
+    "phpmyadmin": "phpMyAdmin 是一款基于 Web 的管理工具，用于轻松管理 MySQL 和 MariaDB 数据库。",
+    "nestjs": "NestJS 是一个渐进式 Node.js 框架，结合 TypeScript 用于构建高效、可靠且可扩展的服务端应用。"
+  },
+
+  "projects": {
+    "obsh": {
+      "title": "OBSH 网站",
+      "desc": "提供来自 Big Hit 公司的 K-pop 衍生产品。"
+    },
+
+    "hospital": {
+      "title": "宠物医院系统",
+      "desc": "医院管理与信息系统。"
+    },
+
+    "netflix": {
+      "title": "NETFLIX 数据项目",
+      "desc": "基于 Netflix 数据集的数据分析与可视化项目。"
+    },
+
+    "buhide": {
+      "title": "BU 捉迷藏",
+      "desc": "互动式校园活动 Web 应用程序。"
+    },
+
+    "meow": {
+      "title": "喵星人喂食器",
+      "desc": "基于物联网 (IoT) 的自动猫咪喂食系统。"
+    },
+
+    "eat": {
+      "title": "健康饮食 (EAT FOR HEALTH)",
+      "desc": "专注于营养跟踪与健康管理的移动应用。"
+    },
+
+    "finance": {
+      "title": "财务记账本",
+      "desc": "用于收支跟踪与管理的移动应用。"
+    },
+
+    "openhouse": {
+      "title": "BU OpenHouse 网站",
+      "desc": "为曼谷大学 Open House 开放日活动开发的官方网站。"
+    },
+
+    "futuretemp": {
+      "title": "FutureTemp 天气预测器",
+      "desc": "基于机器学习的天气预报 Web 应用程序。"
+    }
+  },
+
+  "certificate": {
+    "view": "查看证书"
+  },
+
+  "contact": {
+    "fullName": "姓名",
+    "email": "电子邮箱",
+    "mobile": "手机号码",
+    "subject": "邮件主题",
+    "message": "您的留言内容",
+    "send": "发送留言"
+  },
+
+  "footer": {
+    "copyright": "保留所有权利。"
+  },
+
+  "education": {
+    "university": "曼谷大学",
+    "faculty": "信息技术与创新学院（计算机科学理学学士）。",
+    "tag": "曼谷大学 · 2022 - 2025",
+    "degree": "理学学士",
+    "major": "计算机科学 · (GPA 3.58)",
+    "description1": "在曼谷大学的学习经历是我探索技术世界的一段精彩旅程。我的专业课程专注于建立扎实的软件工程、数据结构与算法基础，同时也探索了人工智能与机器学习等前沿领域。",
+    "description2": "除了理论知识，该课程还非常注重动手创新。我学会了将复杂的问题转化为高效的数字解决方案，所涉及的技术涵盖 Web 开发到数据分析等多个领域。",
+    "projectsTitle": "教育",
+    "projectsHighlight": "项目",
+    "clickView": "点击查看更多"
+  },
+
+  "intern": {
+    "returnBtn": "返回",
+    "position": "数据工程实习生 · 商业数据与分析部",
+    "metaPeriodLabel": "时间",
+    "metaPeriod": "2025年 1月 – 4月",
+    "metaDeptLabel": "部门",
+    "metaDept": "数据工程团队 ( Business Data & Analytic )",
+    "metaAdvisorLabel": "指导老师",
+    "metaAdvisor": "Warodom Dansuwanndamrong",
+    "showcaseTag": "Wisesight (Thailand) Co., Ltd.",
+    "showcaseTitle": "关于",
+    "showcaseTitleHighlight": "Wisesight",
+    "showcaseSub": "泰国第一社交媒体分析服务商",
+    "aboutP1": "Wisesight 是泰国领先的社交媒体分析服务提供商，提供全方位的平台，将海量大数据转化为具有商业价值的深入洞察。",
+    "aboutP2": "公司采用敏捷 (Agile) 开发模式，强调团队合作与快速适应能力，营造出友好且注重持续学习的企业文化。",
+    "skills": ["数据分析", "Python", "SQL", "Apache Superset", "Dremio"],
+    "tasksTitle": "主要",
+    "tasksTitleHighlight": "工作任务",
+    "tasks": {
+      "clientSeg": {
+        "name": "客户细分分析",
+        "desc": "使用 K-Means 聚类算法对客户进行细分，以制定有针对性的商业策略。"
+      },
+      "comeback": {
+        "name": "流失客户召回分析",
+        "desc": "利用 RFM 模型评分分析流失客户的重新激活概率。"
+      },
+      "tagAnalysis": {
+        "name": "标签分析",
+        "desc": "通过基于规则的逻辑 (Rule-Based Logic) 构建客户标签，展示用户行为模式。"
+      },
+      "monteCarlo": {
+        "name": "蒙特卡洛模拟",
+        "desc": "利用概率采样技术模拟报价收入，以预测未来收益区间。"
+      },
+      "dashboard": {
+        "name": "仪表板开发",
+        "desc": "基于 Apache Superset 开发实时数据可视化仪表板。"
+      }
+    },
+    "rolesTitle": "我的",
+    "rolesTitleHighlight": "主要职责",
+    "roles": [
+      "数据准备 — 为各个项目收集、验证并整理来自多个数据源的数据。",
+      "标签分析 — 开发基于规则的标签分类条件，对客户行为进行精准分类。",
+      "K-Means 聚类 — 分析并调优聚类模型（新客户、常规客户、高潜力客户、VIP客户）。",
+      "Dremio 数据结构化 — 在 Dremio 上管理数据 Mode/Schema，并构建用于 Superset 的数据集。",
+      "仪表板设计 — 在 Apache Superset 上为业务团队设计并定制可视化仪表板。"
+    ],
+    "toolsTitle": "使用",
+    "toolsTitleHighlight": "工具",
+    "toolsDesc": {
+      "superset": "构建具有实时交互功能的数据仪表板与数据可视化。",
+      "dremio": "联合来自多个源的数据并使用 SQL 进行查询 — 无需新建数据库。",
+      "jupyter": "编写 Python 代码用于数据清洗、数据分析和模型构建。",
+      "pythonSql": "用于数据处理、模型建立以及在 Dremio 中进行查询的核心编程语言。"
+    },
+    "quote": "“最令人难忘的是这里的人 — 每个人都很友善、热情，总是愿意提供真诚的建议。”",
+    "swotHighlight": "分析",
+    "swot": {
+      "s": "对所使用的工具和系统拥有扎实的基础知识，能够快速上手并投入实际应用。",
+      "w": "向非技术背景的利益相关者清晰展示技术成果方面仍有提升空间。",
+      "o": "在多个真实项目积累了实战经验，并探索掌握了多种新技术与工具。",
+      "t": "数据管理任务（如计算和删除）极其敏感，任何微小的疏忽都可能影响最终分析结果。"
+    },
+    "articleLabel": "文章",
+    "certTitle": "实习",
+    "certTitleHighlight": "证书",
+    "cert1": "查看证书 1",
+    "cert2": "查看证书 2",
+    "articleTitle": "实习",
+    "articleTitleHighlight": "总结文章",
+    "articleErrorText": "⚠️ 当前浏览器暂不支持预览",
+    "articleOpen": "打开文章"
+  },
+
+  "anousith": {
+    "nav": {
+      "branches": "网点分布",
+      "downloadApp": "下载 App"
+    },
+    "hero": {
+      "eyebrow": "工作经历 · 软件开发人员 · 老挝",
+      "titleHighlight": "物流系统",
+      "sub": "软件开发人员 · 2025年7月 – 2026年4月",
+      "btnApp": "查看 App",
+      "btnBranch": "查找网点 →"
+    },
+    "card": {
+      "roleLabel": "职位",
+      "periodLabel": "工作时期",
+      "durationLabel": "工作时长",
+      "durationVal": "10 个月",
+      "focusLabel": "核心领域",
+      "focusVal": "内部系统开发",
+      "cta": "次日达门户"
+    },
+    "stats": {
+      "months": "工作经验（月）",
+      "branches": "服务网点数",
+      "systems": "构建的内部系统数",
+      "provinces": "覆盖省份"
+    },
+    "about": {
+      "label": "关于职位",
+      "title": "软件",
+      "titleHighlight": "开发人员",
+      "p1": "我于 2025 年 7 月至 2026 年 4 月期间在老挝领先的物流公司 Anousith Logistics Co., Ltd. 担任软件开发人员。在此期间，我负责开发和维护内部系统，以提升公司日常物流运营的整体效率。",
+      "p2": "我的工作重点是使用 React.js、Node.js、JavaScript 和 TypeScript 等现代技术栈构建易扩展且用户友好的内部工具。这些解决方案帮助优化了全国范围内的 COD 代收货款管理、包裹追踪和分拨网点协调等部门的工作流程。",
+      "tags": [
+        "React.js",
+        "Node.js",
+        "JavaScript",
+        "TypeScript",
+        "内部系统",
+        "物流科技",
+        "REST APIs",
+        "10 个月"
+      ]
+    },
+    "responsibilities": {
+      "label": "主要职责",
+      "title": "我的",
+      "titleHighlight": "工作内容",
+      "items": [
+        {
+          "name": "内部系统开发",
+          "desc": "设计并开发内部 Web 系统，以优化物流运营流程，提升跨部门工作效率。"
+        },
+        {
+          "name": "前端开发",
+          "desc": "使用 React.js 和 TypeScript 构建响应式且高性能的 UI 界面，为内部员工提供流畅的使用体验。"
+        },
+        {
+          "name": "后端开发",
+          "desc": "使用 Node.js 开发 RESTful API 和服务端逻辑，为物流数据管理及实时业务运营提供技术支撑。"
+        },
+        {
+          "name": "运营流程优化",
+          "desc": "分析现有业务流程，通过数字化解决方案减少人工操作，提高整体运营吞吐量。"
+        },
+        {
+          "name": "系统集成",
+          "desc": "将内部工具与现有平台（COD 代收、包裹追踪、网点系统）对接，构建统一的数据生态。"
+        }
+      ]
+    },
+    "tech": {
+      "label": "使用技术",
+      "title": "技术",
+      "titleHighlight": "栈",
+      "items": {
+        "react": {
+          "name": "React.js",
+          "desc": "基于组件化架构构建动态内部仪表板与管理后台。"
+        },
+        "node": {
+          "name": "Node.js",
+          "desc": "开发后端 API 与服务端逻辑，为物流数据流提供强劲动力。"
+        },
+        "javascript": {
+          "name": "JavaScript",
+          "desc": "贯穿前后端的核心语言，用于快速、可扩展的应用开发。"
+        },
+        "typescript": {
+          "name": "TypeScript",
+          "desc": "为大型代码库引入静态类型安全，减少 Bug 并提高代码的可维护性。"
+        },
+        "graphql": {
+          "name": "GraphQL",
+          "desc": "设计灵活的 Schema 并优化查询，通过单一端点高效获取所需数据。"
+        },
+        "apollo": {
+          "name": "Apollo Client",
+          "desc": "管理全局客户端状态并缓存服务端数据，简化复杂的 API 交互流程。"
+        },
+        "nextjs": {
+          "name": "Next.js",
+          "desc": "利用服务端渲染 (SSR) 和静态生成 (SSG) 技术优化应用性能及 SEO。"
+        }
+      }
+    },
+    "certificates": {
+      "label": "相关文档",
+      "title": "工作",
+      "titleHighlight": "证明与证书",
+      "cert1Title": "在职证明",
+      "cert1Sub": "确认担任软件开发人员的官方证明信",
+      "cert2Title": "绩效与贡献证书",
+      "cert2Sub": "对在职期间工作表现与贡献的官方认可",
+      "org": "Anousith Logistics Co., Ltd."
+    },
+
+    "cta": {
+      "title": "从内部重塑物流流程",
+      "sub": "与 Anousith Logistics 团队密切合作，开发内部系统，全面提升运营效率，助力物流业务蓬勃发展。",
+      "btnPlay": "Google Play",
+      "btnAppStore": "App Store",
+      "btnNext": "次日达门户"
+    }
+  }
+}

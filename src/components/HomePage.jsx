@@ -5,6 +5,7 @@ import { NavBarItem } from "../helper";
 import en from "./../locales/en.json";
 import th from "./../locales/th.json";
 import lo from "./../locales/lo.json";
+import ch from "./../locales/ch.json";
 import { Paths } from "../routes/app";
 
 import profiledp from "./../assets/image/profileMain.png";
@@ -19,7 +20,7 @@ import { useLanguage } from "../context/LanguageContext";
 import EmailConnection from "./Email/email";
 import { skills } from "../helper";
 
-const translations = { en, th, lo };
+const translations = { en, th, lo, ch };
 
 const certificates = [
   {
@@ -149,6 +150,13 @@ function HomePage() {
             onClick={() => setLanguage("lo")}
           >
             LO
+          </button>
+
+          <button
+            className={language === "ch" ? "active-lang" : ""}
+            onClick={() => setLanguage("ch")}
+          >
+            CH
           </button>
         </div>
 

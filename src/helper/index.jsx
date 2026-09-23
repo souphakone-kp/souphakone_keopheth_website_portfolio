@@ -108,6 +108,12 @@ export const skills = [
   },
 
   // ===== Backend =====
+    {
+    name: "NestJS",
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-original.svg",
+    descKey: "nestjs",
+    cats: ["Backend", "Framework"],
+  },
   {
     name: "Node.js",
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
